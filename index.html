@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="only-inp">
+                <p>BINA.AZ</p>
+                <div class="search-room">
+                    <div id="otaqSayi">Otaq sayi</div>
+                    <div class="roomfor">
+                        <div><input type="checkbox" class="category" name="" id="any"><label for="">İstənilən sayda otaqlı</label></div>
+                        <div><input type="checkbox" class="category" name="" id="1"><label for="">1 otaqlı</label></div>
+                       <div> <input type="checkbox" class="category" name="" id="2"><label for="">2 otaqlı</label></div>
+                       <div><input type="checkbox" class="category" name="" id="3"><label for="">3 otaqlı</label></div>
+                       <div><input type="checkbox" class="category" name="" id="4"><label for="">4 otaqlı</label></div>
+                       <div> <input type="checkbox" class="category" name="" id="5"><label for="">5 otaq və daha çox</label></div>
+                    </div>
+                </div>
+                <div class="search-price">
+                    <div id="priceRange">Qiymet, AZN</div>
+                    <div class="openRange">
+                        <span>min</span><input class="min" type="range" step="1" min=1 max=1000000><span class="min-value"></span>
+                        <br>
+                        <span>max</span><input class="max" type="range" step="1" min=1 max=1000000><span class="max-value"></span>                
+                    </div>
+                </div>
+                <div class="look-area">
+                    <div id="areaRange">Sahe M^2</div>
+                    <div class="openArea">
+                        <span>min</span><input class="min" type="range" step="1" min=1 max=1000><span class="min-value"></span>
+                        <br>
+                        <span>max</span><input class="max" type="range" step="1" min=1 max=1000><span class="max-value"></span>                
+                    </div>
+                </div>
+                <div class="search-location">
+                    <div id="locate">Erazi</div>
+                    <div class="locatefor">
+                        <div><input type="checkbox" class="locate_c" name="" id="any-erazi"><label for="">İstənilən erazi</label></div>
+                        <div><input type="checkbox" class="locate_c" name="" id="l1"><label for="">Nizami m.</label></div>
+                       <div> <input type="checkbox" class="locate_c" name="" id="l2"><label for="">İnşaatçılar m.</label></div>
+                       <div><input type="checkbox" class="locate_c" name="" id="l3"><label for="">Masazır q.</label></div>
+                       <div><input type="checkbox" class="locate_c" name="" id="l4"><label for="">Şıxov q.</label></div>
+                       <div> <input type="checkbox" class="locate_c" name="" id="l5"><label for="">Nəsimi m.</label></div>
+                       <div> <input type="checkbox" class="locate_c" name="" id="l6"><label for="">Xətai m.</label></div>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+        <div class="right">
+        </div>
+    </div>
+</body>
+<script src="./assets/scripts/data.js"></script>
+<script src="./assets/scripts/main.js"></script>
+</html>

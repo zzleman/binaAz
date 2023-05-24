@@ -1,0 +1,71 @@
+body{
+    background-color: blanchedalmond;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-flow: wrap;
+    margin-top: 150px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.card > img{
+    height:200px;
+    width: 250px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.card > span{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+.only-inp{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    height: 30px;
+    width: 100%;
+    background-color:peru;
+    padding-bottom: 30px;
+    gap: 30px;
+}
+.only-inp p{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.roomfor {
+    display: none;
+}
+.active {
+    display: block;
+    background-color: white;
+    width: max-content;
+}
+#otaqSayi,#priceRange,#areaRange,#locate{
+    background-color: white;
+    border: 2px solid black;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.openRange,.openArea,.locatefor {
+    display: none;
+}
+.active-range,.active-area,.active-location {
+    display: block;
+    background-color: white;
+    width: max-content;
+}
